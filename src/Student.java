@@ -2,6 +2,7 @@
  * Created by ethan on 2017-02-07.
  */
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Student extends Person {
@@ -15,7 +16,10 @@ public class Student extends Person {
 
     public void addCourse(Course c){
 
-        courseList.add(c);
+        if(this.courseList==null){
+            this.courseList= new ArrayList<>();
+            this.courseList.add(c);
+        }
     }
 
     public String toString() {
