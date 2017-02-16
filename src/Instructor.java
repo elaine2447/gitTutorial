@@ -1,6 +1,7 @@
 /**
  * Created by ethan on 2017-02-07.
  */
+
 public class Instructor extends Person {
     String title;
     Course favCourse;

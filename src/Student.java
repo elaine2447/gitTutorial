@@ -2,9 +2,6 @@
  * Created by ethan on 2017-02-07.
  */
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Student extends Person {
     String major;
     List<Course> courseList;
