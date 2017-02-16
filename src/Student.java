@@ -10,7 +10,6 @@ public class Student extends Person {
         super(name, emailAddress);
         this.major = major;
     }
-
     public void addCourse(Course c){
 
         if(this.courseList==null){
